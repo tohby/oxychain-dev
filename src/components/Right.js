@@ -30,7 +30,7 @@ const Right = () => {
             </div>
           </div>
           <div className="row mt-5">
-            <div className="col-sm-6 px-3">
+            <div className="col-md-6 px-3">
               <h5>Timeline</h5>
               <ul>
                 <li>Milestone 1</li>
@@ -38,7 +38,7 @@ const Right = () => {
                 <li>Milestone 3</li>
               </ul>
             </div>
-            <div className="col-sm-6 px-3">
+            <div className="col-md-6 px-3">
               <h5>Project files</h5>
               <ul>
                 <li>File 1</li>
@@ -49,9 +49,9 @@ const Right = () => {
           </div>
           <div className="row my-5 align-items-center pb-5">
             <div className="col-3">
-              <img src={Thermostat} alt="cloud" width="15px" /> 37&#x2218;
+              <img src={Thermostat} alt="cloud" width="15px" /> 37 <sup>&#x2218;</sup>
             </div>
-            <div className="col-3">4500m</div>
+            <div className="col-3">4500m <sup>2</sup></div>
             <div className="col-6">
               <img src={Cloud} alt="cloud" width="30px" /> 5 tons capturated
             </div>
