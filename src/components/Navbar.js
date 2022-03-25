@@ -10,7 +10,7 @@ const Navbar = () => {
         <Link to="/" className="navbar-brand">
           <img src={logo} alt="oxychain" height="38" />
         </Link>
-        <div class="d-flex align-items-center">
+        <div className="d-flex align-items-center user">
           <span className="text-white h6 me-4">0x204...BA7D</span>{" "}
           <img src={avatar} alt="oxychain" height="70" />
           <svg
@@ -18,11 +18,11 @@ const Navbar = () => {
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-chevron-down text-white"
+            className="bi bi-chevron-down text-white"
             viewBox="0 0 16 16"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
             />
           </svg>

@@ -28,7 +28,7 @@ const Slider = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="slider/hebei.jpg"
+          src="slider/image 136.png"
           alt="Hebei Yuxian"
         />
 
